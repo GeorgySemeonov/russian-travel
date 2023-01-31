@@ -1,0 +1,32 @@
+.footer__author {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        padding: 64px 16px 24px 16px;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__author {
+        line-height: 14px;
+        text-align: left;
+        padding-top: 48px;
+    }
+}

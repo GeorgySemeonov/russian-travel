@@ -1,0 +1,17 @@
+.place {
+    gap: 40px 48px;
+    display: grid;
+    grid-template-areas:
+        "title website"
+        "image paragraph";
+}
+
+@media (max-width: 1270px) {
+    .places {
+        padding: 0 48px;
+    }
+
+    .place {
+        gap: 32px 48px;
+    }
+}

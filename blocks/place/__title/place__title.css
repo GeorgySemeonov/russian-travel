@@ -1,0 +1,28 @@
+.place__title {
+    max-width: 460px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    grid-area: title;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1020px) {
+    .places {
+        gap: 73px;
+        padding: 0 24px;
+
+    }
+
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place {
+        gap: 28px 48px;
+    }
+}
