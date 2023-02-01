@@ -1,4 +1,4 @@
-.header__lang_select {
+.header__link {
     color: #FFFFFF;
     text-decoration: none;
     font-style: normal;
@@ -8,12 +8,12 @@
     transition: opacity 0.3s ease;
 }
 
-.header__lang_select:hover {
+.header__link:hover {
     text-decoration: underline;
     opacity: 0.5;
 }
 @media (max-width: 350px) {
-    .header__lang_select {
+    .header__link {
         font-size: 18px;
         line-height: 20px;
     }
