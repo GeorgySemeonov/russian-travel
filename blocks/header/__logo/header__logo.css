@@ -2,6 +2,11 @@
     background: url(../../../images/header-logo.svg);
     width: 176px;
     height: 52px;
+    transition: opacity 0.3s ease;
+}
+
+.header__logo:hover {
+    opacity: 0.8;
 }
 
 @media (max-width: 350px) {

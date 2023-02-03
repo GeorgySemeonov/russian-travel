@@ -9,9 +9,16 @@
 }
 
 .header__link:hover {
-    text-decoration: underline;
-    opacity: 0.5;
+    
+    opacity: 0.8;
 }
+
+.header__link:focus {
+    
+    text-decoration: underline;
+}
+
+
 @media (max-width: 350px) {
     .header__link {
         font-size: 18px;

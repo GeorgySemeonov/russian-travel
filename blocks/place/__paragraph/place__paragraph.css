@@ -6,30 +6,6 @@
 }
 
 @media (max-width: 760px) {
-    .places {
-        gap: 50px;
-        padding: 0;
-
-    }
-
-    .place__title {
-        font-size: 32px;
-        line-height: 35px;
-        padding: 0 16px;
-    }
-
-    .place__website {
-        padding: 0 16px;
-    }
-
-    .place {
-        gap: 32px;
-        grid-template-areas:
-            "title "
-            "website"
-            "image"
-            "paragraph";
-    }
 
     .place__paragraph {
         padding: 0 16px;

@@ -11,18 +11,18 @@
 }
 
 @media (max-width: 1020px) {
-    .places {
-        gap: 73px;
-        padding: 0 24px;
-
-    }
 
     .place__title {
         font-size: 42px;
         line-height: 46px;
     }
+}
 
-    .place {
-        gap: 28px 48px;
+@media (max-width: 760px) {
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0 16px;
     }
 }

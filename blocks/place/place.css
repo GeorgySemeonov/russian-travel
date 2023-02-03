@@ -7,11 +7,26 @@
 }
 
 @media (max-width: 1270px) {
-    .places {
-        padding: 0 48px;
-    }
 
     .place {
-        gap: 32px 48px;
+        gap: 48px 32px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .place {
+        gap: 48px 28px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .place {
+        gap: 32px;
+        grid-template-areas:
+            "title "
+            "website"
+            "image"
+            "paragraph";
     }
 }

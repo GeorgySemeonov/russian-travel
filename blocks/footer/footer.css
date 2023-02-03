@@ -7,9 +7,15 @@
     justify-content: space-between;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 780px) {
     .footer {
         padding: 88px 24px 24px 24px;
     }
 
+}
+@media (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        padding: 64px 16px 24px 16px;
+    }
 }
