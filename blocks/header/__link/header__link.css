@@ -13,10 +13,7 @@
     opacity: 0.8;
 }
 
-.header__link:focus {
-    
-    text-decoration: underline;
-}
+
 
 
 @media (max-width: 350px) {
