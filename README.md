@@ -8,4 +8,13 @@
 3. Адаптивная верстка для разных разрешений устройств.
 4. Работа с ветками Git.
 
+### Технологии:
+- HTML
+- CSS
+- FlexBox
+- Grid Layout
+- Media queries
+
+**Статус:** завершен ✅
+
 [Ссылка на сайт "Путешествие по России"](https://georgysemeonov.github.io/russian-travel/)
